@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className="bg-hero-bg text-white bg-[#363636]"
+        className="bg-hero-bg text-white "
       >
         <Navbar/>
         {children}
