@@ -38,7 +38,7 @@ const Projects = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentSlide((prevSlide) => (prevSlide + 1) % projects.length);
-    }, 1000); // Change slide every 3 seconds
+    }, 3000); // Change slide every 3 seconds
 
     return () => clearInterval(interval); // Cleanup interval on unmount
   }, [projects.length]);
